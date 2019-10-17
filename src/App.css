@@ -1,0 +1,37 @@
+@import url("//cdn.muicss.com/mui-0.10.0/css/mui.min.css");
+@import url("//cdn.muicss.com/mui-0.10.0/extra/mui-colors.min.css");
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header,
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  margin-bottom: 5%;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.App-header {
+  color: green;
+}
+
+button {
+  color: hotpink;
+  font-size: 2em;
+}
+
+.feed {
+  border: 2px solid red;
+}
